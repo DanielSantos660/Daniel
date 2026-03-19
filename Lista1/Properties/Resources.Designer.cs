@@ -73,6 +73,16 @@ namespace Lista1.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon__10_ {
+            get {
+                object obj = ResourceManager.GetObject("icon (10)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon__8_ {
             get {
                 object obj = ResourceManager.GetObject("icon (8)", resourceCulture);
@@ -106,6 +116,16 @@ namespace Lista1.Properties {
         internal static System.Drawing.Bitmap icon__9___1_ {
             get {
                 object obj = ResourceManager.GetObject("icon (9) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sem_nome__1024_x_768_px___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Sem nome (1024 x 768 px) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
