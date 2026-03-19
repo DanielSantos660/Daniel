@@ -16,5 +16,21 @@ namespace Lista1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            float pi = 3.14159F, raio, area;
+
+            raio = float.Parse(textBox1.Text);
+            area = pi * (2 * raio);
+
+            label5.Text = raio.ToString();
+            label6.Text = Math.Round(area,2).ToString()+"cm";
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
