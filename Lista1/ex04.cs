@@ -26,7 +26,7 @@ namespace Lista1
             F = (9 * C + 160) / 5;
 
             textBox1.Text += "ºC";
-            label3.Text = F.ToString() + "°F";
+            label3.Text = Math.Round(F,1).ToString() + "°F";
         }
 
         private void button3_Click(object sender, EventArgs e)
