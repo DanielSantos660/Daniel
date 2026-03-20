@@ -21,7 +21,12 @@ namespace Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            double F, C;
+            C = double.Parse(textBox1.Text);
+            F = (9 * C + 160) / 5;
 
+            textBox1.Text += "ºC";
+            label3.Text = F.ToString() + "°F";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -34,5 +39,7 @@ namespace Lista1
             textBox1.Clear();
             label3.Text = string.Empty;
         }
+
+        
     }
 }
