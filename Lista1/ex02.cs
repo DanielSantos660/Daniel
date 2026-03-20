@@ -38,6 +38,13 @@ namespace Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int n1, n2, soma;
+
+            n1 = int.Parse(textBox1.Text);
+            n2 = int.Parse(textBox2.Text); 
+            soma = n1 + n2;
+
+            label3.Text = soma.ToString();  
 
         }
     }
