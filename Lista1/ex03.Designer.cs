@@ -96,7 +96,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(309, 30);
+            this.label1.Location = new System.Drawing.Point(310, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(364, 43);
             this.label1.TabIndex = 8;
