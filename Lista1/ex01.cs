@@ -24,7 +24,7 @@ namespace Lista1
             float pi = 3.14159F, raio, area;
 
             raio = float.Parse(textBox1.Text);
-            area = pi * (2 * raio);
+            area = pi * (raio*raio);
 
             label5.Text = raio.ToString();
             label6.Text = Math.Round(area,2).ToString()+"cm";

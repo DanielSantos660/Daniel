@@ -60,7 +60,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(357, 309);
+            this.label3.Location = new System.Drawing.Point(376, 309);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 31);
             this.label3.TabIndex = 4;
@@ -82,30 +82,31 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(504, 421);
+            this.label4.Location = new System.Drawing.Point(515, 421);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(323, 31);
+            this.label4.Size = new System.Drawing.Size(299, 31);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Área: (2 ×             ) × 3,14159 = ";
+            this.label4.Text = "Área: (             )² × 3,14159 = ";
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(605, 421);
+            this.label5.Location = new System.Drawing.Point(588, 421);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 31);
+            this.label5.Size = new System.Drawing.Size(74, 31);
             this.label5.TabIndex = 7;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(822, 421);
+            this.label6.Location = new System.Drawing.Point(805, 421);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 31);
+            this.label6.Size = new System.Drawing.Size(200, 31);
             this.label6.TabIndex = 8;
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
@@ -115,7 +116,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(32, 101);
+            this.label2.Location = new System.Drawing.Point(51, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(390, 31);
             this.label2.TabIndex = 2;
@@ -123,17 +124,19 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(251, 307);
+            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(270, 307);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 33);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Lista1.Properties.Resources.icon__10_;
-            this.pictureBox1.Location = new System.Drawing.Point(27, 147);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 147);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(400, 400);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
