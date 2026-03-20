@@ -71,7 +71,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(88, 33);
-            this.textBox1.TabIndex = 2;
+            this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
@@ -128,7 +128,7 @@
             this.label3.Location = new System.Drawing.Point(530, 479);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 41);
-            this.label3.TabIndex = 6;
+            this.label3.TabIndex = 4;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -150,7 +150,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(88, 33);
-            this.textBox2.TabIndex = 9;
+            this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5

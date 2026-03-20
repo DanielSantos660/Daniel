@@ -192,6 +192,9 @@
     <EmbeddedResource Include="ex04.resx">
       <DependentUpon>ex04.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ex05.resx">
+      <DependentUpon>ex05.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

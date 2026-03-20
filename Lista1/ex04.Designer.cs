@@ -54,7 +54,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(217, 241);
+            this.textBox1.Location = new System.Drawing.Point(217, 242);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(143, 61);
@@ -103,7 +103,7 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(675, 241);
+            this.label3.Location = new System.Drawing.Point(675, 242);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(143, 61);
             this.label3.TabIndex = 3;
