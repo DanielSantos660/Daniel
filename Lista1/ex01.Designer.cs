@@ -149,7 +149,6 @@
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::Lista1.Properties.Resources.icon__8___1_;
             this.button3.ImageKey = "(nenhum/a)";
             this.button3.Location = new System.Drawing.Point(886, 621);
             this.button3.Name = "button3";
@@ -166,7 +165,6 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGoldenrod;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::Lista1.Properties.Resources.icon__9___1_;
             this.button2.ImageKey = "(nenhum/a)";
             this.button2.Location = new System.Drawing.Point(55, 621);
             this.button2.Name = "button2";
@@ -180,7 +178,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
-            this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.ClientSize = new System.Drawing.Size(1004, 725);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
