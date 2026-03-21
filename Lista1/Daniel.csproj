@@ -195,6 +195,9 @@
     <EmbeddedResource Include="ex05.resx">
       <DependentUpon>ex05.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ex06.resx">
+      <DependentUpon>ex06.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -238,6 +241,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85_Sem_Titulo_20260321142242.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
