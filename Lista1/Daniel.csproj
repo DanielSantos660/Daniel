@@ -94,11 +94,11 @@
     <Compile Include="ex08.Designer.cs">
       <DependentUpon>ex08.cs</DependentUpon>
     </Compile>
-    <Compile Include="ex09cs.cs">
+    <Compile Include="ex09.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ex09cs.Designer.cs">
-      <DependentUpon>ex09cs.cs</DependentUpon>
+    <Compile Include="ex09.Designer.cs">
+      <DependentUpon>ex09.cs</DependentUpon>
     </Compile>
     <Compile Include="ex10.cs">
       <SubType>Form</SubType>
@@ -203,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ex08.resx">
       <DependentUpon>ex08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex09.resx">
+      <DependentUpon>ex09.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
