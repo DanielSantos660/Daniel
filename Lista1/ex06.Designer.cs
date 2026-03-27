@@ -212,9 +212,11 @@
             // 
             // ex06
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1004, 725);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);

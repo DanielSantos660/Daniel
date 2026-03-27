@@ -21,12 +21,16 @@ namespace Lista1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a, b;
+            double a, b, temp;
             a = double.Parse(textBox1.Text);
             b = double.Parse(textBox2.Text);
 
-            textBox1.Text = b.ToString();
-            textBox2.Text = a.ToString();
+            temp = a;
+            a = b;
+            b = temp;
+
+            textBox1.Text = a.ToString();
+            textBox2.Text = b.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

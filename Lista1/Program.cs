@@ -16,7 +16,7 @@ namespace Lista1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ex09());
+            Application.Run(new ex10());
         }
     }
 }

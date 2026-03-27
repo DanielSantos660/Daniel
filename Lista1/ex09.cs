@@ -58,16 +58,26 @@ namespace Lista1
             label20.Text = "A + B =";
             label18.Text = "A + C =";
             label17.Text = "A + D =";
-            label16.Text = b.ToString() + " + " + c.ToString() + " = " + (b + c).ToString();
-            label15.Text = b.ToString() + " + " + d.ToString() + " = " + (b + d).ToString();
-            label14.Text = c.ToString() + " + " + d.ToString() + " = " + (c + d).ToString();
+            label16.Text = "B + C =";
+            label15.Text = "B + D =";
+            label14.Text = "C + D =";
 
-            label4.Text = a.ToString() + " x " + b.ToString() + " = " + (a * b).ToString();
-            label8.Text = a.ToString() + " x " + c.ToString() + " = " + (a * c).ToString();
-            label9.Text = a.ToString() + " x " + d.ToString() + " = " + (a * d).ToString();
-            label10.Text = b.ToString() + " x " + c.ToString() + " = " + (b * c).ToString();
-            label11.Text = b.ToString() + " x " + d.ToString() + " = " + (b * d).ToString();
-            label12.Text = c.ToString() + " x " + d.ToString() + " = " + (c * d).ToString();
+            label4.Text = "A x B =";
+            label8.Text = "A x C =";
+            label9.Text = "A x D =";
+            label10.Text = "B x C =";
+            label11.Text = "B x D =";
+            label12.Text = "C x D =";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void ex09_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
