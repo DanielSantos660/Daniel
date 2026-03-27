@@ -50,7 +50,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(354, 304);
+            this.label9.Location = new System.Drawing.Point(354, 309);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 21);
             this.label9.TabIndex = 38;
@@ -61,7 +61,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(630, 181);
+            this.label8.Location = new System.Drawing.Point(630, 186);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(32, 21);
             this.label8.TabIndex = 37;
@@ -73,7 +73,7 @@
             this.textBox2.Location = new System.Drawing.Point(552, 172);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(77, 30);
+            this.textBox2.Size = new System.Drawing.Size(77, 35);
             this.textBox2.TabIndex = 26;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -92,6 +92,7 @@
             this.button3.Size = new System.Drawing.Size(67, 67);
             this.button3.TabIndex = 29;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -107,6 +108,7 @@
             this.button2.Size = new System.Drawing.Size(67, 67);
             this.button2.TabIndex = 28;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -136,7 +138,7 @@
             this.textBox1.Location = new System.Drawing.Point(276, 293);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(77, 30);
+            this.textBox1.Size = new System.Drawing.Size(77, 35);
             this.textBox1.TabIndex = 25;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -169,7 +171,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(663, 289);
+            this.label3.Location = new System.Drawing.Point(663, 296);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 21);
             this.label3.TabIndex = 40;
@@ -181,7 +183,7 @@
             this.textBox3.Location = new System.Drawing.Point(585, 280);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(77, 30);
+            this.textBox3.Size = new System.Drawing.Size(77, 35);
             this.textBox3.TabIndex = 39;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
