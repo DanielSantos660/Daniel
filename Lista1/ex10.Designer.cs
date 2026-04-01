@@ -55,6 +55,7 @@
             this.label9.Size = new System.Drawing.Size(32, 21);
             this.label9.TabIndex = 38;
             this.label9.Text = "cm";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -66,6 +67,7 @@
             this.label8.Size = new System.Drawing.Size(32, 21);
             this.label8.TabIndex = 37;
             this.label8.Text = "cm";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox2
             // 
@@ -76,6 +78,7 @@
             this.textBox2.Size = new System.Drawing.Size(77, 35);
             this.textBox2.TabIndex = 26;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button3
             // 
@@ -121,12 +124,15 @@
             this.label4.Size = new System.Drawing.Size(420, 31);
             this.label4.TabIndex = 32;
             this.label4.Text = "Volume = Comprimento x Altura x Largura";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(449, 447);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 35);
+            this.button1.Size = new System.Drawing.Size(123, 43);
             this.button1.TabIndex = 27;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -141,6 +147,7 @@
             this.textBox1.Size = new System.Drawing.Size(77, 35);
             this.textBox1.TabIndex = 25;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -148,11 +155,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(145, 92);
+            this.label2.Location = new System.Drawing.Point(226, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(732, 31);
+            this.label2.Size = new System.Drawing.Size(552, 31);
             this.label2.TabIndex = 31;
-            this.label2.Text = "Digite o valor da altura e do raio do comprimento, altura e largura da caixa:";
+            this.label2.Text = "Digite o valor do comprimento, altura e largura da caixa:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -160,11 +168,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(155, 24);
+            this.label1.Location = new System.Drawing.Point(150, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(704, 37);
             this.label1.TabIndex = 30;
             this.label1.Text = "Cálculo de Volume de Caixa Retangular (Paralelepípedo):";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -176,6 +185,7 @@
             this.label3.Size = new System.Drawing.Size(32, 21);
             this.label3.TabIndex = 40;
             this.label3.Text = "cm";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -186,6 +196,7 @@
             this.textBox3.Size = new System.Drawing.Size(77, 35);
             this.textBox3.TabIndex = 39;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -198,6 +209,7 @@
             this.label5.Size = new System.Drawing.Size(231, 80);
             this.label5.TabIndex = 41;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -210,6 +222,7 @@
             this.label6.Size = new System.Drawing.Size(94, 31);
             this.label6.TabIndex = 42;
             this.label6.Text = "Volume:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -221,12 +234,15 @@
             this.label7.Size = new System.Drawing.Size(231, 31);
             this.label7.TabIndex = 43;
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // ex10
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1004, 725);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
