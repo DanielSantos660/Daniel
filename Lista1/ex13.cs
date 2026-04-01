@@ -15,6 +15,8 @@ namespace Lista1
         public ex13()
         {
             InitializeComponent();
+            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size(40, 40));
+            button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
         private void button1_Click(object sender, EventArgs e)

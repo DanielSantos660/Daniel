@@ -51,7 +51,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(114, 45);
-            this.textBox2.TabIndex = 74;
+            this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
@@ -127,7 +127,7 @@
             this.button3.Location = new System.Drawing.Point(884, 630);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(67, 67);
-            this.button3.TabIndex = 77;
+            this.button3.TabIndex = 5;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -143,7 +143,7 @@
             this.button2.Location = new System.Drawing.Point(53, 630);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(67, 67);
-            this.button2.TabIndex = 76;
+            this.button2.TabIndex = 4;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -154,7 +154,7 @@
             this.button1.Location = new System.Drawing.Point(440, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 44);
-            this.button1.TabIndex = 75;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -166,7 +166,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 45);
-            this.textBox1.TabIndex = 73;
+            this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
@@ -219,9 +219,11 @@
             // 
             // ex13
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
+            this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1004, 725);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
