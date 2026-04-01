@@ -28,5 +28,22 @@ namespace Lista1
 
             label8.Text = ((n1*n1)+(n2*n2)).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+
+            label5.Text = string.Empty; 
+            label4.Text = string.Empty;
+            label8.Text = string.Empty;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size(40, 40));
+            button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
+        }
     }
 }
