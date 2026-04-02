@@ -15,6 +15,32 @@ namespace Lista1
         public ex15()
         {
             InitializeComponent();
+            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size(40, 40));
+            button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int NumA, NumB;
+            NumA = int.Parse(textBox1.Text);
+            NumB = int.Parse(textBox2.Text);
+            
+            label3.Text = NumB.ToString();
+            label4.Text = NumA.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+
+            label3.Text = string.Empty;
+            label4.Text = string.Empty;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
