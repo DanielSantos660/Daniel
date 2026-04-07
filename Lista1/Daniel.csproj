@@ -234,6 +234,15 @@
     <EmbeddedResource Include="ex18.resx">
       <DependentUpon>ex18.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ex19.resx">
+      <DependentUpon>ex19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex20.resx">
+      <DependentUpon>ex20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex21.resx">
+      <DependentUpon>ex21.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
