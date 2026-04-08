@@ -49,12 +49,15 @@ namespace Lista1
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            
             label3.Text = string.Empty;
+            label8.Text = string.Empty;
+            label10.Text = string.Empty;
+            label12.Text = string.Empty;
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
