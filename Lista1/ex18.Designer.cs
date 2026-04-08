@@ -46,11 +46,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Agency FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(549, 362);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(97, 31);
+            this.label11.Size = new System.Drawing.Size(109, 42);
             this.label11.TabIndex = 50;
             this.label11.Text = "Imposto:";
             // 
@@ -70,11 +70,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Agency FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(420, 483);
+            this.label7.Location = new System.Drawing.Point(411, 483);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(158, 31);
+            this.label7.Size = new System.Drawing.Size(177, 42);
             this.label7.TabIndex = 46;
             this.label7.Text = "Salário líquido:";
             // 
@@ -84,7 +84,7 @@
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(524, 407);
+            this.label8.Location = new System.Drawing.Point(530, 407);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(146, 59);
             this.label8.TabIndex = 45;
@@ -92,20 +92,25 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(243)))), ((int)(((byte)(254)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(243)))), ((int)(((byte)(254)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Agency FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.Location = new System.Drawing.Point(436, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 43);
             this.button1.TabIndex = 36;
             this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(568, 157);
+            this.textBox1.Font = new System.Drawing.Font("Agency FB", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(565, 158);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(118, 45);
@@ -116,11 +121,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Agency FB", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(321, 164);
+            this.label2.Location = new System.Drawing.Point(271, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(219, 31);
+            this.label2.Size = new System.Drawing.Size(254, 45);
             this.label2.TabIndex = 40;
             this.label2.Text = "Digite o salário bruto:";
             // 
@@ -128,11 +133,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(322, 33);
+            this.label1.Location = new System.Drawing.Point(155, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(364, 43);
+            this.label1.Size = new System.Drawing.Size(694, 55);
             this.label1.TabIndex = 39;
             this.label1.Text = "Cálculo de Salário líquido";
             // 
@@ -140,11 +145,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Agency FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(329, 362);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 31);
+            this.label4.Size = new System.Drawing.Size(159, 42);
             this.label4.TabIndex = 42;
             this.label4.Text = "Contribuição:";
             // 
@@ -154,7 +159,7 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(327, 407);
+            this.label3.Location = new System.Drawing.Point(335, 407);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 59);
             this.label3.TabIndex = 41;
