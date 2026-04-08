@@ -44,8 +44,9 @@ namespace Lista1
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size(40, 40));
-            button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
+            
         }
+
+        
     }
 }

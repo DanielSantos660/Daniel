@@ -67,11 +67,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Agency FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(428, 418);
+            this.label6.Location = new System.Drawing.Point(418, 405);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 31);
+            this.label6.Size = new System.Drawing.Size(181, 42);
             this.label6.TabIndex = 81;
             this.label6.Text = "Ordem Inversa:";
             // 
@@ -110,14 +110,17 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.FlatAppearance.BorderSize = 3;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Agency FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.Location = new System.Drawing.Point(440, 314);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 44);
             this.button1.TabIndex = 75;
             this.button1.Text = "Inverter";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
@@ -146,11 +149,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(346, 28);
+            this.label1.Location = new System.Drawing.Point(194, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(323, 37);
+            this.label1.Size = new System.Drawing.Size(690, 55);
             this.label1.TabIndex = 78;
             this.label1.Text = "Inversão de dois números";
             // 

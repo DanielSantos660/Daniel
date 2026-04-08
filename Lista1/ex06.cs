@@ -24,20 +24,7 @@ namespace Lista1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            float pi = 3.14159F, r, h, v;
-
-            h = float.Parse(textBox1.Text);
-            r = float.Parse(textBox2.Text);
-
-            v = pi * (r * r) * h;
-
-            label5.Text = r.ToString();
-            label7.Text = h.ToString();
-            label6.Text = Math.Round(v,2).ToString() + "cm³";
-
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -53,6 +40,20 @@ namespace Lista1
         {
             Application.Exit();
             
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            float pi = 3.14159F, r, h, v;
+
+            h = float.Parse(textBox1.Text);
+            r = float.Parse(textBox2.Text);
+
+            v = pi * (r * r) * h;
+
+            label5.Text = r.ToString();
+            label7.Text = h.ToString();
+            label6.Text = Math.Round(v, 2).ToString() + "cm³";
         }
     }
 }
