@@ -49,7 +49,7 @@ namespace Lista1
             label10.Text = v.ToString() + "Km/h";
             label11.Text = t.ToString() + "h";
             label12.Text = d.ToString() + "Km";
-            label13.Text = l.ToString() + "L";
+            label13.Text = Math.Round(l,2).ToString() + "L";
         }
     }
 }
