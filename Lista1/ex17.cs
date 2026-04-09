@@ -44,5 +44,10 @@ namespace Lista1
             label3.Text = string.Empty;
             label4.Text= string.Empty;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

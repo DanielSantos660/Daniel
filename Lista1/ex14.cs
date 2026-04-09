@@ -28,6 +28,7 @@ namespace Lista1
             Media = (Val1 + Val2)/2;
 
             label5.Text = Math.Round(Media,2).ToString();
+            label9.Text = "("+Val1.ToString()+" + "+ Val2.ToString()+") / 2";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +37,7 @@ namespace Lista1
             textBox2.Clear();
 
             label5.Text = string.Empty;
+            label9.Text = string.Empty;
         }
 
         private void button3_Click(object sender, EventArgs e)

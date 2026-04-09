@@ -101,11 +101,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Broadway", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(309, 9);
+            this.label1.Location = new System.Drawing.Point(237, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(364, 43);
+            this.label1.Size = new System.Drawing.Size(533, 42);
             this.label1.TabIndex = 8;
             this.label1.Text = "Cálculo de Salário líquido";
             // 
@@ -285,9 +285,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 281);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 281);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(301, 188);
+            this.pictureBox1.Size = new System.Drawing.Size(322, 188);
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
@@ -295,11 +295,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(43, 289);
+            this.label13.Location = new System.Drawing.Point(29, 289);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(274, 20);
+            this.label13.Size = new System.Drawing.Size(300, 24);
             this.label13.TabIndex = 27;
             this.label13.Text = "Salário bruto = horas trabalhadas x valor da hora";
             // 
@@ -309,7 +309,7 @@
             this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label14.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(39, 346);
+            this.label14.Location = new System.Drawing.Point(38, 346);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(282, 20);
             this.label14.TabIndex = 28;
@@ -321,7 +321,7 @@
             this.label15.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label15.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(37, 404);
+            this.label15.Location = new System.Drawing.Point(36, 404);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(287, 20);
             this.label15.TabIndex = 29;
@@ -331,11 +331,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label16.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(110, 309);
+            this.label16.Location = new System.Drawing.Point(118, 309);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(140, 20);
+            this.label16.Size = new System.Drawing.Size(122, 20);
             this.label16.TabIndex = 30;
             this.label16.Text = "40 x 50,10 = R$2004,00";
             // 
@@ -343,11 +343,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label17.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label17.Location = new System.Drawing.Point(82, 366);
+            this.label17.Location = new System.Drawing.Point(95, 366);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(196, 20);
+            this.label17.Size = new System.Drawing.Size(168, 18);
             this.label17.TabIndex = 31;
             this.label17.Text = "(30,35% / 100) x 2004 = R$608,21";
             // 
@@ -355,11 +355,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label18.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.Location = new System.Drawing.Point(79, 426);
+            this.label18.Location = new System.Drawing.Point(89, 426);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(203, 20);
+            this.label18.Size = new System.Drawing.Size(181, 20);
             this.label18.TabIndex = 32;
             this.label18.Text = "(30,35% / 100) x 2004 = R$1395,79";
             // 
