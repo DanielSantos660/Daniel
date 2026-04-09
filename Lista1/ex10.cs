@@ -28,7 +28,7 @@ namespace Lista1
 
             v = c * l * h;
 
-            label5.Text = v.ToString() + "cm";
+            label5.Text = v.ToString() + "cm³";
             label7.Text = c.ToString() + " x " + l.ToString() + " x " + h.ToString();
         }
 
