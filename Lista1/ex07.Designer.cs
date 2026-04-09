@@ -98,11 +98,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Broadway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(211, 17);
+            this.label1.Location = new System.Drawing.Point(64, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(586, 36);
+            this.label1.Size = new System.Drawing.Size(879, 55);
             this.label1.TabIndex = 25;
             this.label1.Text = "Cálculo de Gasto de Combústível ";
             // 
@@ -265,7 +265,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.DarkGray;
-            this.label14.Location = new System.Drawing.Point(432, 54);
+            this.label14.Location = new System.Drawing.Point(432, 76);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(143, 28);
             this.label14.TabIndex = 40;
