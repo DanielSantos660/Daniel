@@ -175,12 +175,6 @@
     <Compile Include="ex21.Designer.cs">
       <DependentUpon>ex21.cs</DependentUpon>
     </Compile>
-    <Compile Include="ex_05.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ex_05.Designer.cs">
-      <DependentUpon>ex_05.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ex01.resx">
