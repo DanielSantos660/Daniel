@@ -25,7 +25,7 @@ namespace Lista1
             C = double.Parse(textBox1.Text);
             F = (9 * C + 160) / 5;
 
-            textBox1.Text += "ºC";
+           
             label3.Text = Math.Round(F,1).ToString() + "°F";
         }
 

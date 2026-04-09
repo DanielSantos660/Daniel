@@ -27,7 +27,7 @@ namespace Lista1
 
 
 
-            textBox1.Text += "ºF";
+            
             label3.Text = Math.Round(C, 1).ToString() + "°C";
         }
 
