@@ -19,19 +19,19 @@ namespace Lista1
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             double salb, cont, imp, sall;
             salb = double.Parse(textBox1.Text);
             cont = (10.0 / 100.0) * salb;
-            imp = (5.0 / 100.0)*(salb - cont);
+            imp = (5.0 / 100.0) * (salb - cont);
             sall = salb - (cont + imp);
 
-            label3.Text = "R$" + Math.Round(cont,2).ToString();
-            label8.Text = "R$" + Math.Round(imp,2).ToString();
-            label10.Text = "R$" + Math.Round(sall,2).ToString();
+            label3.Text = "R$" + Math.Round(cont, 2).ToString();
+            label8.Text = "R$" + Math.Round(imp, 2).ToString();
+            label10.Text = "R$" + Math.Round(sall, 2).ToString();
 
         }
 
@@ -48,6 +48,6 @@ namespace Lista1
             Application.Exit();
         }
 
-        
+
     }
 }

@@ -25,8 +25,8 @@ namespace Lista1
             n1 = int.Parse(textBox1.Text);
             n2 = int.Parse(textBox2.Text);
 
-            label5.Text = (n1+n2).ToString();
-            label4.Text = ((n1+n2)*(n1+n2)).ToString();
+            label5.Text = (n1 + n2).ToString();
+            label4.Text = ((n1 + n2) * (n1 + n2)).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

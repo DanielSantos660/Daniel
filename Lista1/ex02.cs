@@ -15,15 +15,12 @@ namespace Lista1
         public ex02()
         {
             InitializeComponent();
-            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size (40, 40));
+            button2.Image = new Bitmap(Properties.Resources.icon__9_, new Size(40, 40));
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
-            
-        }
-
-        private void ex02_Load(object sender, EventArgs e)
-        {
 
         }
+
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -41,10 +38,10 @@ namespace Lista1
             int n1, n2, soma;
 
             n1 = int.Parse(textBox1.Text);
-            n2 = int.Parse(textBox2.Text); 
+            n2 = int.Parse(textBox2.Text);
             soma = n1 + n2;
 
-            label3.Text = soma.ToString();  
+            label3.Text = soma.ToString();
 
         }
     }

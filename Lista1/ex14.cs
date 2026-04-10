@@ -25,10 +25,10 @@ namespace Lista1
             Val1 = double.Parse(textBox1.Text);
             Val2 = double.Parse(textBox2.Text);
 
-            Media = (Val1 + Val2)/2;
+            Media = (Val1 + Val2) / 2;
 
-            label5.Text = Math.Round(Media,2).ToString();
-            label9.Text = "("+Val1.ToString()+" + "+ Val2.ToString()+") / 2";
+            label5.Text = Math.Round(Media, 2).ToString();
+            label9.Text = "(" + Val1.ToString() + " + " + Val2.ToString() + ") / 2";
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -19,7 +19,7 @@ namespace Lista1
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
-       
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -49,7 +49,7 @@ namespace Lista1
             label10.Text = v.ToString() + "Km/h";
             label11.Text = t.ToString() + "h";
             label12.Text = d.ToString() + "Km";
-            label13.Text = Math.Round(l,2).ToString() + "L";
+            label13.Text = Math.Round(l, 2).ToString() + "L";
         }
     }
 }

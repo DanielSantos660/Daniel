@@ -19,10 +19,7 @@ namespace Lista1
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -75,9 +72,6 @@ namespace Lista1
             Application.Exit();
         }
 
-        private void ex09_Load(object sender, EventArgs e)
-        {
 
-        }
     }
 }

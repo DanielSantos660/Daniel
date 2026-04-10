@@ -24,15 +24,15 @@ namespace Lista1
             int n1;
             n1 = int.Parse(textBox1.Text);
 
-            label5.Text = (n1*n1).ToString();
-            label4.Text = (n1*n1*n1).ToString();
+            label5.Text = (n1 * n1).ToString();
+            label4.Text = (n1 * n1 * n1).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             label4.Text = string.Empty;
-            label5.Text= string.Empty;
+            label5.Text = string.Empty;
 
         }
 

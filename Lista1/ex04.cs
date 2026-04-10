@@ -25,8 +25,8 @@ namespace Lista1
             C = double.Parse(textBox1.Text);
             F = (9 * C + 160) / 5;
 
-           
-            label3.Text = Math.Round(F,1).ToString() + "°F";
+
+            label3.Text = Math.Round(F, 1).ToString() + "°F";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -40,6 +40,6 @@ namespace Lista1
             label3.Text = string.Empty;
         }
 
-        
+
     }
 }

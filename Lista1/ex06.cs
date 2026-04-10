@@ -19,12 +19,9 @@ namespace Lista1
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
 
-        
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -39,7 +36,7 @@ namespace Lista1
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)

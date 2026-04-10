@@ -24,7 +24,7 @@ namespace Lista1
             int NumA, NumB;
             NumA = int.Parse(textBox1.Text);
             NumB = int.Parse(textBox2.Text);
-            
+
             label3.Text = NumB.ToString();
             label4.Text = NumA.ToString();
         }

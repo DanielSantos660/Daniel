@@ -197,7 +197,7 @@
             this.Name = "ex02";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 2";
-            this.Load += new System.EventHandler(this.ex02_Load);
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 

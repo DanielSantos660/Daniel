@@ -25,10 +25,10 @@ namespace Lista1
             n1 = int.Parse(textBox1.Text);
             n2 = int.Parse(textBox2.Text);
 
-            label5.Text = (n1*n1).ToString();
-            label4.Text = (n2*n2).ToString();
+            label5.Text = (n1 * n1).ToString();
+            label4.Text = (n2 * n2).ToString();
 
-            label8.Text = ((n1*n1)+(n2*n2)).ToString();
+            label8.Text = ((n1 * n1) + (n2 * n2)).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace Lista1
             textBox1.Clear();
             textBox2.Clear();
 
-            label5.Text = string.Empty; 
+            label5.Text = string.Empty;
             label4.Text = string.Empty;
             label8.Text = string.Empty;
         }
@@ -44,9 +44,9 @@ namespace Lista1
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            
+
         }
 
-        
+
     }
 }

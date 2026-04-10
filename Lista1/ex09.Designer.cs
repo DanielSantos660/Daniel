@@ -458,7 +458,7 @@
             this.Name = "ex09";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 9";
-            this.Load += new System.EventHandler(this.ex09_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

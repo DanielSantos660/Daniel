@@ -51,13 +51,13 @@ namespace Lista1
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
-            
+
             label3.Text = string.Empty;
             label8.Text = string.Empty;
             label10.Text = string.Empty;
             label12.Text = string.Empty;
         }
 
-       
+
     }
 }

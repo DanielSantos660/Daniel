@@ -32,17 +32,14 @@ namespace Lista1
             label4.Text = (int1 % int2).ToString();
         }
 
-        private void ex17_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();
             label3.Text = string.Empty;
-            label4.Text= string.Empty;
+            label4.Text = string.Empty;
         }
 
         private void button3_Click(object sender, EventArgs e)

@@ -24,16 +24,13 @@ namespace Lista1
             float pi = 3.14159F, raio, area;
 
             raio = float.Parse(textBox1.Text);
-            area = pi * (raio*raio);
+            area = pi * (raio * raio);
 
             label5.Text = raio.ToString();
-            label6.Text = Math.Round(area,2).ToString()+"cm";
+            label6.Text = Math.Round(area, 2).ToString() + "cm";
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -43,8 +40,8 @@ namespace Lista1
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            label5.Text= string.Empty;
-            label6.Text= string.Empty;  
+            label5.Text = string.Empty;
+            label6.Text = string.Empty;
         }
     }
 }

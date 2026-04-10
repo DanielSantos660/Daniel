@@ -19,10 +19,7 @@ namespace Lista1
             button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
         }
 
-        private void ex16_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -31,11 +28,11 @@ namespace Lista1
 
             vms = kmh / 3.6;
 
-            label5.Text = Math.Round(vms,2).ToString()+"M/s";
-            
+            label5.Text = Math.Round(vms, 2).ToString() + "M/s";
+
         }
 
-        
+
 
         private void button3_Click(object sender, EventArgs e)
         {
