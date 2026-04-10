@@ -118,7 +118,6 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(181, 40);
             this.label6.TabIndex = 8;
-            
             // 
             // label2
             // 
