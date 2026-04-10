@@ -29,9 +29,9 @@ namespace Lista1
             imp = (5.0 / 100.0)*(salb - cont);
             sall = salb - (cont + imp);
 
-            label3.Text = Math.Round(cont,2).ToString() + "R$";
-            label8.Text = Math.Round(imp,2).ToString() + "R$";
-            label10.Text = Math.Round(sall,2).ToString() + "R$";
+            label3.Text = "R$" + Math.Round(cont,2).ToString();
+            label8.Text = "R$" + Math.Round(imp,2).ToString();
+            label10.Text = "R$" + Math.Round(sall,2).ToString();
 
         }
 
