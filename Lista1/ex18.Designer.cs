@@ -44,6 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label11
@@ -241,6 +242,25 @@
             this.label8.TabIndex = 101;
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(120)))), ((int)(((byte)(252)))));
+            this.button4.FlatAppearance.BorderSize = 3;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(183)))), ((int)(((byte)(253)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(228)))), ((int)(((byte)(254)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(120)))), ((int)(((byte)(252)))));
+            this.button4.Location = new System.Drawing.Point(715, 621);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(154, 67);
+            this.button4.TabIndex = 102;
+            this.button4.Text = "Voltar ao Menu";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // ex18
             // 
             this.AcceptButton = this.button1;
@@ -249,6 +269,7 @@
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1004, 725);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
@@ -293,5 +314,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button4;
     }
 }
