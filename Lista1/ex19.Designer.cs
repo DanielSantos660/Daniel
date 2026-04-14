@@ -246,7 +246,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(120)))), ((int)(((byte)(252)))));
-            this.button4.Location = new System.Drawing.Point(715, 630);
+            this.button4.Location = new System.Drawing.Point(713, 630);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(154, 67);
             this.button4.TabIndex = 86;
@@ -285,6 +285,7 @@
             this.Name = "ex19";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 19";
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 

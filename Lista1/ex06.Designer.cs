@@ -249,6 +249,7 @@
             this.button4.TabIndex = 72;
             this.button4.Text = "Voltar ao Menu";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ex06
             // 
@@ -279,7 +280,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ex06";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 6";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -15,6 +15,8 @@ namespace Lista1
         public Form1()
         {
             InitializeComponent();
+            button3.Image = new Bitmap(Properties.Resources.icon__8_, new Size(40, 40));
+            //código totalmente estético, ele busca a imagem da pasta Resources e redimensiona, deixando em melhor qualidade
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -189,5 +191,7 @@ namespace Lista1
             this.Hide();
             ex21.Show();
         }
+
+        
     }
 }

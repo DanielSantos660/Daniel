@@ -31,6 +31,7 @@ namespace Lista1
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            textBox2.Clear();
             label3.Text = "";
         }
 
@@ -44,6 +45,11 @@ namespace Lista1
 
             label3.Text = soma.ToString();
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

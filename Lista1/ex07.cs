@@ -52,5 +52,10 @@ namespace Lista1
             label12.Text = d.ToString() + "Km";
             label13.Text = Math.Round(l, 2).ToString() + "L";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

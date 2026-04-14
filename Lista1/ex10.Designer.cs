@@ -255,12 +255,13 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(120)))), ((int)(((byte)(252)))));
-            this.button4.Location = new System.Drawing.Point(722, 627);
+            this.button4.Location = new System.Drawing.Point(715, 627);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(154, 67);
             this.button4.TabIndex = 72;
             this.button4.Text = "Voltar ao Menu";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ex10
             // 

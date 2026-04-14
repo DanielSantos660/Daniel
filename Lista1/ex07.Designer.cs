@@ -194,11 +194,11 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Agency FB", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkGray;
-            this.label8.Location = new System.Drawing.Point(535, 452);
+            this.label8.Location = new System.Drawing.Point(534, 452);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(173, 32);
+            this.label8.Size = new System.Drawing.Size(175, 32);
             this.label8.TabIndex = 34;
-            this.label8.Text = "Tempo x velocidade";
+            this.label8.Text = "Tempo x Velocidade";
             // 
             // label9
             // 
@@ -307,9 +307,11 @@
             this.button4.TabIndex = 72;
             this.button4.Text = "Voltar ao Menu";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ex07
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;

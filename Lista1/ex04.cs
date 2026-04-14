@@ -41,6 +41,9 @@ namespace Lista1
             label3.Text = string.Empty;
         }
 
-
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

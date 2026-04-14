@@ -53,5 +53,10 @@ namespace Lista1
             label7.Text = h.ToString();
             label6.Text = Math.Round(v, 2).ToString() + "cm³";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

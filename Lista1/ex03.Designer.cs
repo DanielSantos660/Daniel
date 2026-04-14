@@ -47,17 +47,17 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -69,9 +69,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.Location = new System.Drawing.Point(547, 353);
+            this.button1.Location = new System.Drawing.Point(381, 353);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 43);
+            this.button1.Size = new System.Drawing.Size(97, 43);
             this.button1.TabIndex = 4;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -80,10 +80,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(721, 143);
+            this.textBox1.Location = new System.Drawing.Point(555, 143);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(99, 33);
+            this.textBox1.Size = new System.Drawing.Size(70, 33);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -93,7 +93,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(389, 143);
+            this.label2.Location = new System.Drawing.Point(223, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(286, 29);
             this.label2.TabIndex = 9;
@@ -117,7 +117,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(429, 435);
+            this.label4.Location = new System.Drawing.Point(263, 435);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(199, 29);
             this.label4.TabIndex = 15;
@@ -129,9 +129,9 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(634, 435);
+            this.label3.Location = new System.Drawing.Point(468, 435);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 34);
+            this.label3.Size = new System.Drawing.Size(117, 34);
             this.label3.TabIndex = 14;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -171,10 +171,10 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(720, 208);
+            this.textBox2.Location = new System.Drawing.Point(554, 208);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(99, 33);
+            this.textBox2.Size = new System.Drawing.Size(70, 33);
             this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -184,7 +184,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(389, 208);
+            this.label5.Location = new System.Drawing.Point(223, 208);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(228, 29);
             this.label5.TabIndex = 16;
@@ -193,10 +193,10 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(720, 275);
+            this.textBox3.Location = new System.Drawing.Point(554, 275);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(99, 33);
+            this.textBox3.Size = new System.Drawing.Size(70, 33);
             this.textBox3.TabIndex = 3;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -206,7 +206,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(389, 277);
+            this.label6.Location = new System.Drawing.Point(223, 277);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(328, 29);
             this.label6.TabIndex = 18;
@@ -218,7 +218,7 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(429, 569);
+            this.label7.Location = new System.Drawing.Point(263, 569);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(159, 29);
             this.label7.TabIndex = 21;
@@ -230,9 +230,9 @@
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label8.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(634, 502);
+            this.label8.Location = new System.Drawing.Point(468, 502);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 34);
+            this.label8.Size = new System.Drawing.Size(117, 34);
             this.label8.TabIndex = 20;
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -242,7 +242,7 @@
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label9.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(429, 629);
+            this.label9.Location = new System.Drawing.Point(263, 629);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 29);
             this.label9.TabIndex = 23;
@@ -254,9 +254,9 @@
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label10.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(634, 569);
+            this.label10.Location = new System.Drawing.Point(468, 569);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(146, 34);
+            this.label10.Size = new System.Drawing.Size(117, 34);
             this.label10.TabIndex = 22;
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -266,7 +266,7 @@
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(237)))));
             this.label11.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(429, 502);
+            this.label11.Location = new System.Drawing.Point(263, 502);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(149, 29);
             this.label11.TabIndex = 25;
@@ -278,100 +278,19 @@
             this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label12.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(634, 629);
+            this.label12.Location = new System.Drawing.Point(468, 629);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 34);
+            this.label12.Size = new System.Drawing.Size(117, 34);
             this.label12.TabIndex = 24;
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 281);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(322, 188);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(29, 289);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(300, 24);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "Salário bruto = horas trabalhadas x valor da hora";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label14.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(38, 346);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(282, 20);
-            this.label14.TabIndex = 28;
-            this.label14.Text = "Total de descontos = (%Desc/100) x Salário bruto\r\n";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label15.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(36, 404);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(287, 20);
-            this.label15.TabIndex = 29;
-            this.label15.Text = "Salário líquido = Salário bruto - Total de descontos";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label16.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label16.Location = new System.Drawing.Point(118, 309);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(122, 20);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "40 x 50,10 = R$2004,00";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label17.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label17.Location = new System.Drawing.Point(95, 366);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(168, 18);
-            this.label17.TabIndex = 31;
-            this.label17.Text = "(30,35% / 100) x 2004 = R$608,21";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label18.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.Location = new System.Drawing.Point(89, 426);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(181, 20);
-            this.label18.TabIndex = 32;
-            this.label18.Text = "(30,35% / 100) x 2004 = R$1395,79";
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Lista1.Properties.Resources.icon__15_;
-            this.pictureBox2.Location = new System.Drawing.Point(243, 55);
+            this.pictureBox2.Location = new System.Drawing.Point(77, 55);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(726, 658);
+            this.pictureBox2.Size = new System.Drawing.Size(697, 658);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
@@ -387,12 +306,94 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(120)))), ((int)(((byte)(252)))));
-            this.button4.Location = new System.Drawing.Point(33, 28);
+            this.button4.Location = new System.Drawing.Point(715, 621);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(154, 67);
             this.button4.TabIndex = 72;
             this.button4.Text = "Voltar ao Menu";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label18.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label18.Location = new System.Drawing.Point(743, 409);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(181, 20);
+            this.label18.TabIndex = 79;
+            this.label18.Text = "(30,35% / 100) x 2004 = R$1395,79";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label17.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label17.Location = new System.Drawing.Point(749, 349);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(168, 18);
+            this.label17.TabIndex = 78;
+            this.label17.Text = "(30,35% / 100) x 2004 = R$608,21";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label16.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label16.Location = new System.Drawing.Point(772, 292);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(122, 20);
+            this.label16.TabIndex = 77;
+            this.label16.Text = "40 x 50,10 = R$2004,00";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label15.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(690, 387);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(287, 20);
+            this.label15.TabIndex = 76;
+            this.label15.Text = "Salário líquido = Salário bruto - Total de descontos";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label14.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(692, 329);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(282, 20);
+            this.label14.TabIndex = 75;
+            this.label14.Text = "Total de descontos = (%Desc/100) x Salário bruto\r\n";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label13.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(683, 272);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(300, 24);
+            this.label13.TabIndex = 74;
+            this.label13.Text = "Salário bruto = horas trabalhadas x valor da hora";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.Location = new System.Drawing.Point(681, 264);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(305, 188);
+            this.pictureBox1.TabIndex = 73;
+            this.pictureBox1.TabStop = false;
             // 
             // ex03
             // 
@@ -402,7 +403,6 @@
             this.BackgroundImage = global::Lista1.Properties.Resources.Sem_nome__1024_x_768_px___1_;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(1004, 725);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -410,6 +410,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label9);
@@ -436,8 +437,8 @@
             this.Name = "ex03";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,14 +464,14 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
