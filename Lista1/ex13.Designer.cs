@@ -187,7 +187,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(114, 45);
-            this.textBox2.TabIndex = 88;
+            this.textBox2.TabIndex = 2;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
@@ -209,7 +209,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 45);
-            this.textBox1.TabIndex = 87;
+            this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
@@ -238,7 +238,7 @@
             this.button4.Location = new System.Drawing.Point(713, 630);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(154, 67);
-            this.button4.TabIndex = 91;
+            this.button4.TabIndex = 6;
             this.button4.Text = "Voltar ao Menu";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
